@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://bokumentation.github.io/hackathon-2026-01/"><img src="https://img.shields.io/badge/GDS-3D%20viewer-blue.svg" alt="GDS viewer"></a>
+  <a href="https://bokumentation.github.io/hackathon-2026-01-peruri-chip-design/"><img src="https://img.shields.io/badge/GDS-3D%20viewer-blue.svg" alt="GDS viewer"></a>
 </p>
 
 <p align="center"><strong>Tiny Tapeout note.</strong> This is a PERURI Chip Hackathon 2026 submission (Topic Area 04), not a Tiny Tapeout shuttle submission, so it does not follow the Tiny Tapeout submission guidance. It uses the Tiny Tapeout 07 SerDes <code>TT_UM_SERDES</code> as the link baseline (rewritten), and includes <code>tt07-bep-decode</code> only as CWE-354 problem evidence.</p>
