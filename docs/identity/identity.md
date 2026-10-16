@@ -3,8 +3,8 @@
 
 **Nama Tim:** Tri Arga
 
-**Ketua:** Ibrahim Fauzi Rahman - Universitas Telkom - ibrahimfauzirahman@student.telkomuniversity.ac.id / +62 857-2774-6841
-**Anggota 1:** Idris Syaifulloh - Universitas Telkom - idrissyaifulloh@student.telkomuniversity.ac.id / +62 895-3309-78461
+**Ketua:** Ibrahim Fauzi Rahman - Universitas Telkom  
+**Anggota 1:** Idris Syaifulloh - Universitas Telkom  
 
 **Dosen Pembimbing:** Dr. Setia Juli Irzal Ismail, S.T., M.T.
 
