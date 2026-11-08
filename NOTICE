@@ -1,0 +1,41 @@
+TRI-ARGA
+Copyright 2026 The contributors
+
+This repository is the team submission for the PERURI Chip Design Hackathon
+2026, Topic Area 04 - Secure Communication. It is a research prototype, not a
+certified secure element. Known limits: no payload confidentiality, no
+side-channel or glitch resistance, and the RF integrity field remains an
+unsolved error-correcting code.
+
+This product includes third-party source code, pinned as git submodules under
+baseline/. The original copyright notices and license texts are retained in each
+submodule.
+
+------------------------------------------------------------------------------
+tt07-bep-decode
+  Path:    baseline/tt07-bep-decode
+  Source:  https://github.com/DusterTheFirst/tt07-bep-decode
+  Author:  Zachary Kohnen
+  License: Apache License 2.0
+  Note:    Reference Manchester/433MHz decoder used as the TRI-ARGA ingress
+           baseline. The integrity field (tail_1..3) it receives is verified by
+           TRI-ARGA layer L2.
+
+TT_UM_SERDES
+  Path:    baseline/TT_UM_SERDES
+  Source:  https://github.com/Santeep/TT_UM_SERDES
+  Author:  Mahaa Santeep G, Shylashree N, RV College of Engineering
+  License: Apache License 2.0
+  Note:    Serial/parallel transport reference.
+
+tt07_cdc_fifo
+  Path:    baseline/tt07_cdc_fifo
+  Source:  https://github.com/Pa1mantri/tt07_cdc_fifo
+  Author:  Pavan Mantri
+  License: Apache License 2.0
+  Note:    Clock domain crossing reference.
+
+------------------------------------------------------------------------------
+
+Tiny Tapeout templates and tooling are provided by the Tiny Tapeout project
+(https://tinytapeout.com) and are used under their respective licenses.

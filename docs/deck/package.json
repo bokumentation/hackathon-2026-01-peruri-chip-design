@@ -1,0 +1,13 @@
+{
+  "name": "tri-arga-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Build the TRI-ARGA presentation deck (pptx + pdf).",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

@@ -1,0 +1,72 @@
+# Python
+/venv
+/env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Editor / agent tooling
+/.vscode
+/.clinerules
+/.opencode/node_modules/
+/.lavish/
+
+# Node build dependencies for docs
+node_modules/
+
+# Simulation artifacts
+sim_build/
+results.xml
+*.vcd
+*.fst
+*.vvp
+*.lxt2
+*.wlf
+
+# ASIC hardening outputs
+/runs/
+/db/
+/gds/*.gds
+/gds/*.gdsii
+/gds/*.def
+/gds/*.lef
+/gds/*.spef
+!/gds/readme.md
+
+# FPGA / Quartus outputs
+output_files/
+incremental_db/
+fpga/de10nano/db/
+fpga/de10nano/c5_pin_model_dump.txt
+*.stp
+*.stp.bak
+*.summary
+*.rpt
+*.qws
+*.qpf.bak
+*.sof
+*.rbf
+
+# Documentation build output (markdown and PDF are canonical)
+docs/**/*.html
+output/
+
+# Judge profile analysis (public-data research, kept local)
+docs/judging/judge-profiles.md
+docs/judging/simulasi-penjurian.id.md
+docs/competition/peruri-ina-digital-personel.md
+
+# Third-party reference papers (converted to markdown; original PDFs not tracked)
+docs/references/*.pdf
+
+# SymbiYosys work directories
+/synth/formal/*/
+
+# Simulation evidence output
+/sim/out/*
+!/sim/out/README.md
+
+# Synthesis area reports
+/synth/area/
